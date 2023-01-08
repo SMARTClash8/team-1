@@ -9,5 +9,5 @@ frog
 horse
 ship
 truck
-The backend is written in django, the neural network model is convolutional, the frontend is html, css, bootstrap.
+The backend is written in django, the neural network model is convolutional, the frontend is html, css, bootstrap.\n
 Command to start: python manage.py runserver

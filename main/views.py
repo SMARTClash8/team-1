@@ -3,16 +3,17 @@ from django.http import HttpResponse
 from .forms import UserForm
 from .models import Links
 from .test import save_photo
+
 def index(request):
 	if request.method == 'POST':
 		form = UserForm(request.POST, request.FILES)
  
 		if form.is_valid():
 			form.save()
-			return redirect('success')
+			# return redirect('success')
 	else:
 		form = UserForm()
-	return render(request, 'html/index.html', {'form': form})
+	return render(request, 'main/index.html', {'form': form})
 
 def success(request):
 	return HttpResponse('successfully uploaded')

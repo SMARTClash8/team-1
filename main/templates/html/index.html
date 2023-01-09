@@ -35,12 +35,12 @@
               <div class="file-select-button" id="fileName">Choose File</div>
               <div class="file-select-name" id="noFile">No file chosen...</div> 
               {{ form.as_p }}
-              {{ result }}
               {% comment %} <input type="file" name="chooseFile" id="chooseFile"> {% endcomment %}
             </div>
           </div>
           <button type="submit" class="btn btn-primary btnn" >Upload</button>
         </form>
+        <h2 class="text-center text-uppercase"><strong>{{ result }}</strong></h2>
       </section>
     </main>
 

@@ -21,7 +21,7 @@
   <body class="body">
     <main class="center-block">
       {% comment %} <section class="container">
-        {% include "./dropezone.html" %}
+        <!-- {% include "./dropezone.html" %} -->
       </section> {% endcomment %}
       <section class="container">
         <div class="title">
@@ -35,7 +35,7 @@
               <div class="file-select-button" id="fileName">Choose File</div>
               <div class="file-select-name" id="noFile">No file chosen...</div> 
               {{ form.as_p }}
-              {{ new }}
+              <h2 class="text-center text-uppercase"><strong>{{ result }}</strong></h2>
               {% comment %} <input type="file" name="chooseFile" id="chooseFile"> {% endcomment %}
             </div>
           </div>

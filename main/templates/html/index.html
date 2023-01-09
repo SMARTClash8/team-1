@@ -30,13 +30,12 @@
         
         <form method="post" class="form" enctype="multipart/form-data">
           {% csrf_token %} 
-          <div class="file-upload">
-            <div class="file-select">
-              <div class="file-select-button" id="fileName">Choose File</div>
-              <div class="file-select-name" id="noFile">No file chosen...</div> 
-              {{ form.as_p }}
+                <input type="file" name="upload" accept="image/*">
+                <br>
+                <button class="btn btn-dark my-4" type="submit">Submit</button> 
+              <!-- {{ form.as_p }} -->
               {{ result }}
-              {% comment %} <input type="file" name="chooseFile" id="chooseFile"> {% endcomment %}
+              <!-- {% comment %} <input type="file" name="chooseFile" id="chooseFile"> {% endcomment %} -->
             </div>
           </div>
           <button type="submit" class="btn btn-primary btnn" >Upload</button>

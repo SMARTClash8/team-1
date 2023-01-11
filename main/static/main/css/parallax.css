@@ -124,6 +124,8 @@ svg {
   flex-direction: column;
   align-items: center;
 
+  gap: 40px;
+
   width: 50%;
   height: 500px;
   background: linear-gradient(0deg, rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.5));
@@ -137,9 +139,9 @@ svg {
   width: 100%;
 }
 
-.formTitle {
+/* .formTitle {
   margin: 0 0 40px 0;
-}
+} */
 
 .file-upload {
   display: flex;

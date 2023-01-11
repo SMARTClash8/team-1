@@ -1,2 +1,2 @@
-PATH_FOLDER_MODEL = 'C:/Users/misha/Downloads/'
-PATH_FOLDER_PROJECT = 'C:/Users/misha/Desktop/python/'
+PATH_FOLDER_MODEL = 'C:/Users/IiIymik/Downloads/'
+PATH_FOLDER_PROJECT = 'C:/Users/IiIymik/Desktop/team_1/'

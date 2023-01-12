@@ -17,7 +17,7 @@ def index(request):
 		delete_images('./media/images')
 		if form.is_valid():
 			x = form.save()
-			full_name = PATH_FOLDER_PROJECT + "team_1/media/images/" + str(request.FILES['link'])
+			full_name = PATH_FOLDER_PROJECT + "/media/images/" + str(request.FILES['link'])
 			result = image_classify(full_name, 'si_rescale', model)
 			# print(round(result[0][2]*100, 2))
 			string = "This is the " + result[0][1] + " with chance " + str(round(result[0][2]*100, 2)) + "%"

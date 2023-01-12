@@ -7,7 +7,8 @@ import skimage
 import cv2
 import os
 import re
-PATH_FOLDER_PROJECT = r'C:\Users\misha\Desktop\python'
+PATH_FOLDER_PROJECT = r'C:/Users/IiIymik/Downloads'
+
 
 def img_preproces(img, expand_dims = False, copy = False, preprocess_img = False):
     if expand_dims == True:

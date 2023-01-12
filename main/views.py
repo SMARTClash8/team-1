@@ -21,6 +21,9 @@ def index(request):
 			result = image_classify(full_name, 'si_rescale', model)
 			# print(round(result[0][2]*100, 2))
 			string = "This is the " + result[0][1] + " with chance " + str(round(result[0][2]*100, 2)) + "%"
+			if round(result[0][2]*100, 2) < 50:
+				string = "We can understand what this image, load another!"
+			
 	else:
 		form = UserForm()
 	return render(request, 'html/index.html', {'form': form, 'result': string})

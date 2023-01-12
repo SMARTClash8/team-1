@@ -11,3 +11,5 @@ ship
 truck
 The backend is written in django, the neural network model is convolutional, the frontend is html, css, bootstrap.
 Command to start: python manage.py runserver
+<h1 align="center">A neural network based on the cifar-10 dataset, with the help of which we examine the picture for belonging to one of 10 classes, such as:
+<h3 align="center">airplane</h3>

@@ -1,15 +1,13 @@
-A neural network based on the cifar-10 dataset, with the help of which we examine the picture for belonging to one of 10 classes, such as:
-airplane
-car
-birds
-cat
-deer
-dog
-frog
-horse
-ship
-truck
-The backend is written in django, the neural network model is convolutional, the frontend is html, css, bootstrap.
-Command to start: python manage.py runserver
-<h1 align="center">A neural network based on the cifar-10 dataset, with the help of which we examine the picture for belonging to one of 10 classes, such as:
+<h1 align="center">A neural network based on the cifar-10 dataset, with the help of which we examine the picture for belonging to one of 10 classes, such as:</h1>
 <h3 align="center">airplane</h3>
+<h3 align="center">car</h3>
+<h3 align="center">birds</h3>
+<h3 align="center">cat</h3>
+<h3 align="center">deer</h3>
+<h3 align="center">dog</h3>
+<h3 align="center">frog</h3>
+<h3 align="center">horse</h3>
+<h3 align="center">ship</h3>
+<h3 align="center">truck</h3>
+<h2 align="center">The backend is written in django, the neural network model is convolutional, the frontend is html, css, bootstrap.</h2>
+	<h2 align="center">Command to start: python manage.py runserver</h2>

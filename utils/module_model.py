@@ -7,8 +7,7 @@ import skimage
 import cv2
 import os
 import re
-PATH_FOLDER_PROJECT = r'C:/Users/IiIymik/Downloads'
-
+PATH_FOLDER_PROJECT = r'C:\Users\misha\Desktop\python'
 
 def img_preproces(img, expand_dims = False, copy = False, preprocess_img = False):
     if expand_dims == True:
@@ -50,7 +49,7 @@ def image_classify(filename, processor, model):
 
 
 def get_photo_path():
-    dir_path = PATH_FOLDER_PROJECT+ r'\team_1\media\images'
+    dir_path = r'C:\Users\misha\Desktop\python\team_1\media\images'
     list_files = os.listdir(dir_path)
     list_files
     files  = ''

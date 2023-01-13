@@ -10,4 +10,4 @@
 <h3 align="center">ship</h3>
 <h3 align="center">truck</h3>
 <h2 align="center">The backend is written in django, the neural network model is convolutional, the frontend is html, css, bootstrap.</h2>
-	<h2 align="center">Command to start: python manage.py runserver</h2>
+	<h2 align="center">Command to start: python manage.py runserver </h2>

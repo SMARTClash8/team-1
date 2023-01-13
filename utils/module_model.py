@@ -49,7 +49,7 @@ def image_classify(filename, processor, model):
 
 
 def get_photo_path():
-    dir_path = PATH_FOLDER_PROJECT+ r'\team_1\media\images'
+    dir_path = r'C:\Users\misha\Desktop\python\team_1\media\images'
     list_files = os.listdir(dir_path)
     list_files
     files  = ''
